@@ -21,7 +21,6 @@ library(dplyr)
 library(plotly)
 
 dataset <- mvpa::HOMA_IR
-
 ```
 
 We then standardize all explanatory variables, but keep the response (HOMA-IR) unstandardized
@@ -34,7 +33,6 @@ dataset_standardized <- mvpa::scale_data(data = dataset,
 
 # # Variances for each variable
 round(apply(dataset_standardized, 2,var), 3)
-
 ```
 
 ## Figure 2
@@ -63,7 +61,6 @@ figure_2_result <- mvpa::perform_mc_pls_tp(data = figure_2_dataset,
                                            cal_ratio = 0.5,
                                            validation_threshold = 0.5,
                                            standardize = FALSE)
-
 ```
 
 We created a list element that contains information about the created PLS model, but also contains the target projection values, such as the Selectivity ratio (SR) or Selectivity fraction (SF).
@@ -132,7 +129,6 @@ table_1 <- table_1_result$correlation_matrix
 
 # The correlation matrix as a plot
 table_1_plot <- mvpa::plot_correlation(table_1_result)
-
 ```
 
 <iframe src="/mvpaShiny_documentation/publication/html/table_1_plot.html" height=400px width="100%" style="border:none;"></iframe>
@@ -151,7 +147,6 @@ adiposity_values <- colnames(dataset)[30:32]
 age_adjustment <- mvpa::perform_covariate_projection(X_aug = enhanced_standardized_dataset,
                                                      covariates = 'Age',
                                                      standardize = TRUE)
-
 ```
 
 We now redo this step two times with more variables. This step is order-sensitive - choosing c('Age', 'Sex') will not produce the same results as c('Sex', 'Age').
@@ -216,7 +211,6 @@ figure_4_a <- mvpa::plot_tp_value_mc(result_list = figure_4_a_result,
                                      tp_value_to_plot = 'selectivity_fraction',
                                      component = figure_4_a_result$A_optimal,
                                      confidence_limits = c(0.025, 0.975))
-
 ```
 
 <iframe src="/mvpaShiny_documentation/publication/html/figure_4_a.html" height=400px width="100%" style="border:none;"></iframe>
@@ -248,7 +242,6 @@ figure_4_b <- mvpa::plot_tp_value_mc(result_list = figure_4_b_result,
                                      tp_value_to_plot = 'selectivity_fraction',
                                      component = figure_4_b_result$A_optimal,
                                      confidence_limits = c(0.025, 0.975))
-
 ```
 
 <iframe src="/mvpaShiny_documentation/publication/html/figure_4_b.html" height=400px width="100%" style="border:none;"></iframe>
@@ -376,7 +369,6 @@ full_dataset_adjusted <- mvpa::remove_variables(data = full_dataset_adjustment$r
 
 # Reorder variables for plotting
 figure_5_dataset <- full_dataset_adjusted[c('HOMA_IR', adiposity_values, lipoproteins, PA_values)]
-
 ```
 
 After the adjustment, PLS-R is performed.
