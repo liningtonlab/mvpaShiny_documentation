@@ -1,7 +1,7 @@
 ---
 layout: default
 title: mvpa R workflow
-parent: publication
+parent: Publication
 nav_order: 1
 ---
 

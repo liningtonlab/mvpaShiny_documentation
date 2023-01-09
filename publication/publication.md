@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publication - results
+title: Publication
 nav_order: 1
 has_children: true
 permalink: /publication
