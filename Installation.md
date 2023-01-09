@@ -26,7 +26,8 @@ if (!require("devtools", quietly = TRUE)) {
 } else {
   print("Devtools has been already installed.")
 }
-    
+
+devtools::install_github("liningtonlab/mvpa")
 devtools::install_github("liningtonlab/mvpaShiny")
 ```
 
