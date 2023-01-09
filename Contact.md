@@ -12,7 +12,7 @@ For questions and suggestions around the algebraic theory behind the *mvpa* R pa
 
 ### Bug reporting
 
-Please report *mvpaShiny* bugs using the following [link](https://github.com/tim-b90/mvpaShiny/issues/new).
+Please report *mvpaShiny* bugs using the following [link](https://github.com/liningtonlab/mvpaShiny/issues/new).
 
-To report bugs in the *mvpa* R package, please use this [link](https://github.com/tim-b90/mvpa/issues/new).
+To report bugs in the *mvpa* R package, please use this [link](https://github.com/liningtonlab/mvpa/issues/new).
 

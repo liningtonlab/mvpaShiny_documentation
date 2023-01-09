@@ -10,7 +10,9 @@ This documentation is intended to explain how to use the R Shiny app ***mvpaShin
 
 The online version of *mvpaShiny* can be found [here](https://shiny.rcg.sfu.ca/u/tbaumeis/mvpaShiny/).
 
-This shiny app is based on the R package *mvpa* (**m**ulti**v**ariate **p**attern **a**nalysis) which can be downloaded [here](https://github.com/tim-b90/mvpa). 
+The *mvpaShiny* package can be found [here](https://github.com/liningtonlab/mvpaShiny).
+
+This shiny app is based on the R package *mvpa* (**m**ulti**v**ariate **p**attern **a**nalysis) which can be downloaded [here](https://github.com/liningtonlab/mvpa). 
 
 
 

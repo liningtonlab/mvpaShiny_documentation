@@ -27,7 +27,7 @@ if (!require("devtools", quietly = TRUE)) {
   print("Devtools has been already installed.")
 }
     
-devtools::install_github("tim-b90/mvpaShiny")
+devtools::install_github("liningtonlab/mvpaShiny")
 ```
 
 Start *mvpaShiny*!
