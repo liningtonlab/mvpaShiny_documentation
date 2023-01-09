@@ -9,6 +9,8 @@ nav_order: 1
 
 The herein shown code snippets shall highlight how the mvpa R package can be used and follows the narrative of the corresponding publication.
 
+
+
 ## Setup 
 
 We first need to load the packages and make the dataset available
