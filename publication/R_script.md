@@ -3,7 +3,6 @@ layout: default
 title: mvpa R workflow
 parent: publication
 nav_order: 1
-
 ---
 
 # The mvpa R workflow: HOMO-IR case study
