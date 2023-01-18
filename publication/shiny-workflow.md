@@ -5,4 +5,4 @@ parent: Publication
 nav_order: 2
 ---
 
-<iframe src="/mvpaShiny_documentation/publication/html/mvpashiny_slideshow.html" height=800x width="100%" style="border:none;"></iframe>
+<iframe src="/mvpaShiny_documentation/publication/html/mvpashiny_slideshow.html" height="100%" width="600px" style="border:none;"></iframe>
