@@ -2,7 +2,7 @@ title: "mvpaShiny documentation"
 remote_theme: pmarsceill/just-the-docs
 
 baseurl: "/mvpaShiny_documentation" # the subpath of your site, e.g. /blog
-url: "https://tim-b90.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://liningtonlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 search_enabled: true
 search:
@@ -39,4 +39,4 @@ back_to_top_text: "Back to top"
 
 aux_links:
   "GitHub page of this documentation (report mistakes or make suggestions)":
-    - "//github.com/tim-b90/mvpaShiny_documentation"
+    - "//github.com/liningtonlab/mvpaShiny_documentation"
