@@ -8,7 +8,7 @@ nav_order: 1
 
 This documentation is intended to explain how to use the R Shiny app ***mvpaShiny***.
 
-The online version of *mvpaShiny* can be found [here](www.mvpashiny.org).
+The online version of *mvpaShiny* can be found [here](http://www.mvpashiny.org).
 
 The *mvpaShiny* package can be found [here](https://github.com/liningtonlab/mvpaShiny).
 

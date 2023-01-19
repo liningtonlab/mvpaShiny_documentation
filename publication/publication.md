@@ -19,5 +19,5 @@ mvpa::HOMA_IR
 
 ### The guides  
 
-We offer a step-by-step guide for the [R version](publication/R_script.md) and the [R shiny app](publication/shiny-workflow).
+We offer a step-by-step guide for the [R version](publication/R_script) and the [R shiny app](publication/shiny-workflow).
 

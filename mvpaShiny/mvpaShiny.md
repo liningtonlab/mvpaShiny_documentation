@@ -23,7 +23,7 @@ The core objective of the *mvpaShiny* is to identify latent structures and impor
 
 ## Requirements
 
-*mvpaShiny* can be used online using the following link [*mvpaShiny* - web version](https://shiny.rcg.sfu.ca/u/tbaumeis/mvpaShiny/)
+*mvpaShiny* can be used online using the following link [*mvpaShiny* - web version](http://www.mvpashiny.org)
 
 However, *mvpaShiny* can also be operated locally through R Studio. 
 
