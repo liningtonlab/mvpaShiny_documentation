@@ -5,7 +5,7 @@ parent: Publication
 nav_order: 1
 ---
 
-# The mvpa R workflow: HOMO-IR case study
+# The mvpa R workflow: HOMA-IR case study
 
 The herein shown code snippets shall highlight how the mvpa R package can be used and follows the narrative of the corresponding publication.
 
