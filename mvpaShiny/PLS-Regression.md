@@ -97,11 +97,11 @@ Selectivity fraction (**SF**) is calculated by dividing the explained variance b
 
 - **SF<sub>*i*</sub>** = sign variance<sub>explained, *i*</sub> /  variance<sub>total</sub> , *i* = 1, 2, 3, ..., n )
 
-The multivariate correlation coefficient, or short MCorrC, is calculated by using SF and the explained variance in y (R<sup>2</sup>Y). Thus, in contrast to SR and SF, this coefficient related to the actual outcome, not the predicted outcome. MCorrC is equivalent to a bivariate correlation coefficient but is derived from the multivariate space. It is favorable for comparing association patterns between groups since coefficients can be compared directly towards the actual outcome.
+The multivariate correlation coefficient, or short MCorrC, is calculated by using SF and the explained variance in y (R<sup>2</sup>Y).  MCorrC is related to a bivariate correlation coefficient, but is derived from the multivariate space.
 
 - **MCorrC** = sign \|**SF** R<sup>2</sup>Y\|<sup>1/2</sup> 
 
-The multivariate covariance coefficient (MCovC) is derived from the MCorrC by dividing MCorrC with the standard deviation (SD) of the **X**. Note that associations using MCovC will be fully dependent on how variables from an intensity spectrum is created or binned. Thus, this coefficient should be used carefully and interpreted appropriately.
+The multivariate covariance coefficient (MCovC) is derived from the MCorrC by dividing MCorrC with the standard deviation (SD) of **X**. Note that associations using MCovC will be fully dependent on how variables from an intensity spectrum were created or binned. Thus, this coefficient should be used carefully and interpreted appropriately.
 
 - **MCovC** = **MCorrC** / SD<sub>**X**</sub>
 
