@@ -101,9 +101,9 @@ The multivariate correlation coefficient, or short MCorrC, is calculated by usin
 
 - **MCorrC** = sign \|**SF** R<sup>2</sup>Y\|<sup>1/2</sup> 
 
-The multivariate covariance coefficient (MCovC) is derived from the MCorrC by dividing MCorrC with the standard deviation (SD) of **X**. Note that associations using MCovC will be fully dependent on how variables from an intensity spectrum were created or binned. Thus, this coefficient should be used carefully and interpreted appropriately.
+The multivariate covariance coefficient (MCovC) is derived from the MCorrC by multiplying it by the fraction of the standard deviation of the outcome **y** and the standard deviation of **X**. Note that associations using MCovC will be fully dependent on how variables from an intensity spectrum were created or binned. Thus, this coefficient should be used carefully and interpreted appropriately.
 
-- **MCovC** = **MCorrC** / SD<sub>**X**</sub>
+- **MCovC** = **MCorrC** * SD<sub>**y**</sub> / SD<sub>**X**</sub>
 
   
 
